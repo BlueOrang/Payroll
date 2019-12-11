@@ -1,0 +1,33 @@
+12/3/19
+Software Engineering
+
+Jiwoo Ban
+Patrick Brown
+Phillip McDonald
+Qizeng Sun
+
+Payroll System:
+
+Functional Requirements:
+Allow employee information to be put in to the system (id, social security, hours, etc.).
+Calculate pay of employees based on the time they worked, their hourly salary, and the time they took off.
+Subtract taxes and other withholding amounts.
+Provide a summary of the information used to calculate the pay.
+Provide payroll deposits to pay employees.
+Store records of employee information.
+
+Non-functional Requirements:
+Flexibility: Allow for easy changes to be made.
+Reliability: System must make accurate calculations, be highly secure to keep employee information safe, and detect any errors in a relatively short time.
+Performance: Swift response time
+User-friendly: Good GUI and easy to use navigation.
+
+Use Case
+Goal: Calculate Pay
+Actors: Employees, Employer/Administrator
+Success Scenario:
+1) The employee gains access to the payroll through id.
+2) The employee enters their information into the payroll system (social security, hours, etc.).
+3) The administrator gains access to the payroll through id.
+4) The administrator uses the system to calculate the proper pay for the employee.
+5) A payroll deposit is created to pay the employee.
